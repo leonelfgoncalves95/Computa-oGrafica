@@ -1,0 +1,126 @@
+<scene>
+    <group>
+        <models>
+            Sol
+            <model file="sphere.3d" texture="sun.jpg" />
+        </models>
+        
+        <group>
+            Mercurio
+            <rotate time=5 X=0 Y=1 Z=0/> <!--> Rotação de 65s em 360ª em torno do sol <-->
+            <translate X=1.5 Y=0 Z=0 />
+            <rotate time=5 X=0 Y=1 Z=0/> <!--> Rotação de 65s em 360ª em torno de si próprio <-->
+            <scale X=0.025 Y=0.025 Z=0.025/>
+            <models>
+                <model file = "sphere_lightest.3d" texture="mercury.jpg" />
+            </models>
+        </group>
+        
+        <group>
+            Venus
+            <rotate time=10 X=0 Y=1 Z=0/>
+            <translate X=2.00 Y=0 Z=0 />
+            <rotate time=10 X=0 Y=1 Z=0/>
+			<scale X=0.05 Y=0.05 Z=0.05/>
+            <models>
+                <model file = "sphere_light.3d" texture="venus.jpg" />
+            </models>
+        </group>
+        
+        <group>
+			Terra
+            <rotate time=15 X=0 Y=1 Z=0/>
+			<translate X=2.5 Y=0 Z=0 />
+            <rotate time=15 X=0 Y=1 Z=0/>
+			<scale X=0.075 Y=0.075 Z=0.075/>
+			<models>
+				<model file = "sphere_light.3d" texture="earth.png" />
+
+			</models>
+
+			<group>
+				Lua
+                <rotate time=5 X=0 Y=1 Z=0/>
+                <translate X=2.7 Y=0.05 Z=0 />
+                <rotate time=5 X=0 Y=1 Z=0/>
+                <scale X=0.4 Y=0.4 Z=0.4/>
+                <color R=0.329412 G=0.329412 B=0.329412/>
+				<models>
+					<model file = "sphere_lightest.3d" texture="moon.jpg" />
+				</models>
+			</group>
+		</group>
+        
+        <group>
+            Marte
+            <rotate time=25 X=0 Y=1 Z=0/>
+            <translate X=3 Y=0 Z=0 />
+            <rotate time=25 X=0 Y=1 Z=0/>
+			<scale X=0.04 Y=0.04 Z=0.04/>
+            <color R=1.0 G=0.25 B=0.0 />
+            <models>
+                <model file = "sphere_light.3d" texture="mars.jpg" />
+            </models>
+        </group>
+        
+        <group>
+            Jupiter
+            <rotate time=40 X=0 Y=1 Z=0/>
+            <translate X=5 Y=0 Z=0 />
+            <rotate time=40 X=0 Y=1 Z=0/>
+			<scale X=0.75 Y=0.75 Z=0.75/>
+            <color R=0.184314 G=0.309804 B=0.309804 />
+            <models>
+                <model file = "sphere_light.3d" texture="jupiter.jpg" />
+            </models> 
+        </group>
+        
+        <group>
+            Saturno
+            <rotate time=50 X=0 Y=1 Z=0/>
+            <translate X=7.5 Y=0 Z=0 />
+            <rotate time=50 X=0 Y=1 Z=0/>
+			<scale X=0.6 Y=0.6 Z=0.6/>
+            <color R=0.858824 G=0.858824 B=0.439216 />
+            <models>
+                <model file = "sphere_light.3d" texture="saturn.jpg" />
+            </models> 
+        </group>
+        
+        <group>
+            Urano
+            <rotate time=60 X=0 Y=1 Z=0/>
+            <translate X=10 Y=0 Z=0 />
+            <rotate time=60 X=0 Y=1 Z=0/>
+			<scale X=0.25 Y=0.25 Z=0.25/>
+            <color R=0.329412 G=0.329412 B=0.329412 />
+            <models>
+                <model file = "sphere_light.3d" texture="uranus.jpg"/>
+            </models>
+        </group>
+        
+        <group>
+            Neptuno
+            <rotate time=70 X=0 Y=1 Z=0/>
+            <translate X=12.5 Y=0 Z=0 />
+            <rotate time=70 X=0 Y=1 Z=0/>
+			<scale X=0.25 Y=0.25 Z=0.25/>
+            <color R=0.137255 G=0.419608 B=0.556863/>
+            <models>
+                <model file = "sphere_light.3d" texture="neptune.jpg" />
+            </models>
+        </group>
+
+        <group>
+            Plutao
+            <rotate time=80 X=0 Y=1 Z=0/>
+            <translate X=15 Y=0 Z=0 />
+            <rotate time=80 X=0 Y=1 Z=0/>
+			<scale X=0.025 Y=0.025 Z=0.025/>
+            <color R=0.658824 G=0.658824 B= 0.658824/>
+            <models>
+                <model file = "sphere_lightest.3d" texture="uranus.jpg" />
+            </models>
+        </group>
+    </group>
+</scene>
